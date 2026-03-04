@@ -9,7 +9,7 @@ export class DocumentGeneratorService {
   private http = inject(HttpClient);
 
   private readonly API_URL =
-    'http://localhost:8080/smart-sheet-reporter/api/beta/generator/generate';
+    'smart-sheet-reporter-production.up.railway.app/smart-sheet-reporter/api/beta/generator/generate';
 
   generateDocuments(excel: File, template: File): Observable<Blob> {
     const formData = new FormData();
