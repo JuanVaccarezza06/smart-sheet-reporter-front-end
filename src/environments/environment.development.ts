@@ -1,4 +1,5 @@
 export const environment = {
   production: false,
-  apiUrl: 'http://localhost:8080' // Cambia el puerto si usas otro
+  apiUrl: 'https://smart-sheet-reporter-production.up.railway.app',
+  // apiUrl: 'http://localhost:8080' // Aquí pondremos el dominio de Railway
 };
